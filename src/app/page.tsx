@@ -1,11 +1,13 @@
 import Image from "next/image";
-import {Header} from '@/app/_components/header'
+
 import { Leading } from "./_components/leading";
+import { About } from "./_components/about";
+
 export default function Home() {
   return (
-   <main className="bg-yellow-300">
-    <Header />
-    <Leading/>
-   </main>
+    <main >
+      <Leading />
+      <About />
+    </main>
   );
 }
